@@ -1,0 +1,375 @@
+/* styles.css */
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Només limita l'ample de la pàgina */
+}
+
+/* Fixem el navbar */
+#navbar1 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Color de fons del navbar */
+    padding: 15px;
+    display: flex;
+    justify-content: center; /* Centre el contingut */
+    z-index: 1000; /* Per assegurar-nos que estigui per sobre del contingut */
+}
+
+/* Estils dels enllaços del navbar */
+#navbar1 a {
+    color: #000; /* Color del text */
+    text-decoration: none; /* Elimina el subratllat */
+    font-family: "Oswald", sans-serif;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 350;
+    letter-spacing: 2px;
+}
+
+#navbar1 a:hover {
+    background-color: #dcdcdc; /* Canvi de fons al passar el cursor */
+}
+
+
+#entrades {
+    color: #f0f0f0;
+    margin-top: 20px;
+
+    #info-47 {
+        color: #000;
+    }
+
+    #info-Smile {
+        color: #000;
+    }
+
+    #info-ShinChan {
+        color: #000;
+    }
+
+    #info-Joker {
+        color: #000;
+    }
+
+    #info-Venom {
+        color: #000;
+    }
+
+    #info-Casa {
+        color: #000;
+    }
+
+    #info-Robot {
+        color: #000;
+    }
+
+    #info-LaJoia {
+        color: #000;
+    }
+}
+
+/* Reset de marges i padding */
+body {
+    background-color: #3B4D74 !important;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h4 {
+    font-family: "Anton", sans-serif;
+    letter-spacing: 5px;
+}
+
+#titols{
+   color: #0f1e3c; 
+    margin-left: 30px;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+#reservaEnt {
+    color: #0f1e3c;
+    font-size: 40px;
+}
+
+
+section {
+    padding-top: 80px;
+    /* Espacio antes de cada sección */
+    margin-top: -80px;
+    /* Ajusta para que no afecte la vista normal */
+  }
+  
+
+/* Estils per a la navbar */
+
+
+nav {
+    background-color: #f8f9fa;
+    padding: 15px;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+nav ul li {
+    margin: 20px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+
+#logo {
+    width: 100px;
+    /* Ajusta el tamaño del logo */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+
+
+}
+
+
+#benvingut {
+    padding: 20px;
+    /* Afegeix espai als costats */
+    background-color: #3B4D74;
+
+
+    /* Manté el fons */
+    .col {
+        background-color: #3B4D74;
+    }
+}
+
+
+#gracies {
+    color: #000000;
+}
+
+
+/* Estils per al contenidor principal */
+.container {
+    background-color: #3B4D74;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Estils per a les files i columnes */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    background-color: #3B4D74;
+    color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    /* Asegura que la fila ocupe el 100% del ancho de su contenedor */
+}
+
+
+.col {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #3B4D74;
+    border-radius: 8px;
+}
+
+
+article {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+aside {
+    background-color: #1c2d50;
+    /* Color de fondo si lo deseas */
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+    justify-content: flex-start;
+    min-height: 100%;
+    /* Hace que el aside ocupe el 100% del contenedor */
+}
+
+
+#especials {
+    text-align: center;
+}
+
+#especial{
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: justify;
+    font-size: 18px;
+    }
+    
+
+
+
+.carousel-inner img {
+    
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* Manté la proporció de la imatge */
+}
+
+
+.interactive-table {
+    width: 90%; 
+    /* Ample de la taula */
+    margin: 30px;
+    margin-right: 10%; /* Agrega un margen a la izquierda igual al del aside */
+    margin-top: 10px;
+    margin-bottom: -30px;
+}
+
+.interactive-table th,
+.interactive-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+    background-color: #1c2d50;
+    font-family: "Anton", sans-serif;
+}
+
+
+/*Text de l'interior de les files*/
+.interactive-table a {
+    text-decoration: none;
+}
+
+#tabla {
+font-size: 30px;
+margin-bottom: 0px;
+letter-spacing: 5px;
+color:white;
+}
+
+#setmanals {
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color:#6181b4;
+
+}
+
+
+/* Contenidor per al navbar intern */
+#navbar {
+    display: flex;
+    /* Flexbox per a una alineació correcta */
+    justify-content: flex-start;
+    /* Alinea els enllaços a l'esquerra */
+    flex-wrap: wrap;
+    /* Permet que els enllaços facin un salt de línia si no hi ha prou espai */
+    margin: 0px 0;
+    /* Espai a dalt i a baix */
+    background: none;
+    /* Elimina el fons blanc */
+    margin-top: -20px;
+    margin-left: -15px;
+
+}
+
+/* Estil dels enllaços */
+#navbar a {
+    display: inline-block;
+    /* Permet que els enllaços tinguin marges i dimensions personalitzades */
+    background-color: #ffffff;
+    /* Fons blanc per als quadradets */
+    color: #000;
+    /* Color del text */
+    text-align: center;
+    /* Centre del text */
+    text-decoration: none;
+    /* Elimina el subratllat */
+    padding: 10px 20px;
+    /* Espai intern */
+    margin: 5px;
+    /* Espai entre els enllaços */
+    border-radius: 10px;
+    /* Cantonades arrodonides */
+
+}
+
+/* Estil al passar el ratolí per sobre */
+#navbar a:hover {
+    background-color: #bab1b1;
+    /* Fons al passar el ratolí */
+    color: black;
+    /* Color del text al passar el ratolí */
+}
+
+#reservaLletra {
+    color: #bab1b1;
+    letter-spacing: 2px;
+}
+
+#tanca {
+    color: rgb(122, 116, 116);
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.peu {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6181b4;
+    text-align: center;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+  }
+
+@media (max-width: 768px) { /* Cambiar 768px al ancho deseado */
+    .row {
+        margin-bottom: -20px; /* Espacio entre filas en pantallas pequeñas */
+    }
+}
